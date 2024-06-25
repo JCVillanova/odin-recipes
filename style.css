@@ -12,6 +12,19 @@ p {
 	font-size: 14px;
 }
 
+.chicken {
+	background-color: rgb(219 200 136);
+}
+
+.chicken h1 {
+	background-color: rgb(230 184 34);
+	color: rgb(61 49 7);
+}
+
+.chicken .wrapper {
+	background-color: rgb(255 255 255 / 0.3);
+}
+
 .pumpkin-pie {
 	background-color: rgb(247 166 84);
 }
