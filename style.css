@@ -24,3 +24,16 @@ p {
 .pumpkin-pie .wrapper {
 	background-color: rgb(255 255 255 / 0.3);
 }
+
+.salmon {
+	background-color: rgb(237 133 121);
+}
+
+.salmon h1 {
+	background-color: rgb(217 82 67);
+	color: rgb(74 15 8);
+}
+
+.salmon .wrapper {
+	background-color: rgb(255 255 255 / 0.3);
+}
