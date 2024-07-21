@@ -1,5 +1,18 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: rgb(76 74 82);
+	margin: auto;
+	width: 50%;
 }
 
 h1 {
@@ -8,6 +21,7 @@ h1 {
 	font-family: 'Cormorant Garamond', Georgia, serif;
 	font-size: 64px;
 	font-weight: 700;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -16,6 +30,11 @@ li,
 p {
 	font-family: monospace;
 	font-size: 14px;
+}
+
+img {
+	display: block;
+	margin: 30px auto;
 }
 
 .chicken {
@@ -29,6 +48,34 @@ p {
 
 .chicken .wrapper {
 	background-color: rgb(255 255 255 / 0.3);
+}
+
+.link-list {
+	background-color: rgb(255 255 255 / 0.4);
+}
+
+.link-list li {
+	border: 2px solid rgb(48 46 54);
+	border-right: 0;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	list-style-type: none;
+	text-align: center;
+	width: 33.33%;
+}
+
+.link-list li:last-child {
+	border: 2px solid rgb(48 46 54);
+	width: 33.33%;
+}
+
+.link-list ul {
+	font-size: 0;
+}
+
+.normal-list li {
+	list-style-position: inside;
 }
 
 .pumpkin-pie {
@@ -59,4 +106,5 @@ p {
 
 .wrapper {
 	background-color: rgb(255 255 255 / 0.4);
+	padding: 20px;
 }
